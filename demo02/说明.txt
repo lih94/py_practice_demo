@@ -1,0 +1,11 @@
+注：使用Python3
+说明：
+1.当位置数据的时间一致，但位置不一致，以时间最新的位置为准
+2.data.txt记录存在位置变更的号码及相关的位置数据信息；
+  export_source_data.txt记录所有号码的位置信息（规整后的），因为可能存在同一时间不同位置的数据被规整，因此条数可能会略少；
+  phone_number.txt记录所有存在位置变更的号码
+3.路径说明：
+ input_data_file_name = 'data/data.txt'：原始数据存放路径，此路径即可
+ export_data_file_name = 'export/data.txt'：输出data.txt文件路径
+ export_source_data_file_name = 'export/export_source_data.txt'：输出export_source_data.txt文件路径
+ phone_number_file_name = 'export/phone_number.txt'：输出phone_number.txt文件路径
